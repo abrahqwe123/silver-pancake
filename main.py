@@ -3,7 +3,7 @@ class Purse:
     def __init__(self, currency: str, name: str):
         if currency not in ('USD', 'EUR', 'RUB'):
             return ValueError('Ошибка создания кошелька')
-        
+        12e4123er123r
         self.__money = 0.00
         self.currency = currency
         self.name = name
